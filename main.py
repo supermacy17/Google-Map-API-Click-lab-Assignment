@@ -2,7 +2,7 @@ __author__ = 'supermacy'
 import requests
 from api_data import data_getter,parser,response
 from flask.ext.restful import Resource
-import HTMLParser
+
 
 class api_class(Resource):
     def get(self):
